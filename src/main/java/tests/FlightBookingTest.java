@@ -22,17 +22,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class FlightBookingTest extends SeleniumTestPlan{
+public class FlightBookingTest extends SeleniumTestPlan {
 
-	
-	
 	FlightBookingPageObjects obj = new FlightBookingPageObjects();
-	
-	@Test
+
+	@Test (retryAnalyzer=Retry.class)
 	public void testThatResultsAppearForAOneWayJourney() {
 
-		driver.get("https://www.cleartrip.com/");
-		waitFor(2000);
 		PageFactory.initElements(driver, obj);
 		obj.oneWay.click();
 

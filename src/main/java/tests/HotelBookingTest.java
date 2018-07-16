@@ -13,30 +13,22 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class HotelBookingTest extends SeleniumTestPlan{
+public class HotelBookingTest extends SeleniumTestPlan {
 
-  
-  
-    HotelBookingPageObjects obj = new HotelBookingPageObjects();
-   
+	HotelBookingPageObjects obj = new HotelBookingPageObjects();
 
-    @Test
-    public void shouldBeAbleToSearchForHotels() {
-        
-    	driver.get("https://www.cleartrip.com/");
-        PageFactory.initElements(driver, obj);
-        obj.hotelLink.click();
+	@Test (retryAnalyzer=Retry.class)
+	public void shouldBeAbleToSearchForHotels() {
 
-        obj.localityTextBox.sendKeys("Indiranagar, Bangalore");
+		PageFactory.initElements(driver, obj);
+		obj.hotelLink.click();
 
-        new Select(obj.travellerSelection).selectByVisibleText("1 room, 2 adults");
+		obj.localityTextBox.sendKeys("Indiranagar, Bangalore");
 
-        obj.searchButton.click();
+		new Select(obj.travellerSelection).selectByVisibleText("1 room, 2 adults");
 
-       
+		obj.searchButton.click();
 
-    }
-
-   
+	}
 
 }

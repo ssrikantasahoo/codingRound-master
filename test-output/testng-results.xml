@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45736" started-at="2018-07-16T09:12:17Z" finished-at="2018-07-16T09:13:03Z">
+  <suite name="Default suite" duration-ms="47259" started-at="2018-07-16T11:46:43Z" finished-at="2018-07-16T11:47:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45736" started-at="2018-07-16T09:12:17Z" finished-at="2018-07-16T09:13:03Z">
+    <test name="Default test" duration-ms="47259" started-at="2018-07-16T11:46:43Z" finished-at="2018-07-16T11:47:30Z">
       <class name="tests.HotelBookingTest">
-        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.HotelBookingTest@523884b2]" name="startBroswer" is-config="true" duration-ms="3198" started-at="2018-07-16T14:42:17Z" finished-at="2018-07-16T14:42:20Z">
+        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.HotelBookingTest@61832929]" name="startBroswer" is-config="true" duration-ms="7854" started-at="2018-07-16T17:16:43Z" finished-at="2018-07-16T17:16:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBroswer -->
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:tests.HotelBookingTest@523884b2]" name="shouldBeAbleToSearchForHotels" duration-ms="8419" started-at="2018-07-16T14:42:20Z" finished-at="2018-07-16T14:42:29Z">
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:tests.HotelBookingTest@61832929]" name="shouldBeAbleToSearchForHotels" duration-ms="4382" started-at="2018-07-16T17:16:51Z" finished-at="2018-07-16T17:16:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToSearchForHotels -->
-        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.HotelBookingTest@523884b2]" name="quitBroswer" is-config="true" duration-ms="167" started-at="2018-07-16T14:42:29Z" finished-at="2018-07-16T14:42:29Z">
+        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.HotelBookingTest@61832929]" name="quitBroswer" is-config="true" duration-ms="183" started-at="2018-07-16T17:16:55Z" finished-at="2018-07-16T17:16:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBroswer -->
       </class> <!-- tests.HotelBookingTest -->
       <class name="tests.FlightBookingTest">
-        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.FlightBookingTest@5b275dab]" name="startBroswer" is-config="true" duration-ms="1230" started-at="2018-07-16T14:42:29Z" finished-at="2018-07-16T14:42:30Z">
+        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.FlightBookingTest@29774679]" name="startBroswer" is-config="true" duration-ms="6509" started-at="2018-07-16T17:16:55Z" finished-at="2018-07-16T17:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBroswer -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:tests.FlightBookingTest@5b275dab]" name="testThatResultsAppearForAOneWayJourney" duration-ms="19346" started-at="2018-07-16T14:42:30Z" finished-at="2018-07-16T14:42:49Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:tests.FlightBookingTest@29774679]" name="testThatResultsAppearForAOneWayJourney" duration-ms="14180" started-at="2018-07-16T17:17:02Z" finished-at="2018-07-16T17:17:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.FlightBookingTest@5b275dab]" name="quitBroswer" is-config="true" duration-ms="170" started-at="2018-07-16T14:42:49Z" finished-at="2018-07-16T14:42:49Z">
+        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.FlightBookingTest@29774679]" name="quitBroswer" is-config="true" duration-ms="193" started-at="2018-07-16T17:17:16Z" finished-at="2018-07-16T17:17:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBroswer -->
       </class> <!-- tests.FlightBookingTest -->
       <class name="tests.SignInTest">
-        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.SignInTest@61832929]" name="startBroswer" is-config="true" duration-ms="1181" started-at="2018-07-16T14:42:50Z" finished-at="2018-07-16T14:42:51Z">
+        <test-method status="PASS" signature="startBroswer()[pri:0, instance:tests.SignInTest@3ffc5af1]" name="startBroswer" is-config="true" duration-ms="6281" started-at="2018-07-16T17:17:16Z" finished-at="2018-07-16T17:17:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBroswer -->
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:tests.SignInTest@61832929]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="11817" started-at="2018-07-16T14:42:51Z" finished-at="2018-07-16T14:43:02Z">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:tests.SignInTest@3ffc5af1]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="7459" started-at="2018-07-16T17:17:23Z" finished-at="2018-07-16T17:17:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.SignInTest@61832929]" name="quitBroswer" is-config="true" duration-ms="167" started-at="2018-07-16T14:43:02Z" finished-at="2018-07-16T14:43:03Z">
+        <test-method status="PASS" signature="quitBroswer()[pri:0, instance:tests.SignInTest@3ffc5af1]" name="quitBroswer" is-config="true" duration-ms="165" started-at="2018-07-16T17:17:30Z" finished-at="2018-07-16T17:17:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBroswer -->

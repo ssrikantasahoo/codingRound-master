@@ -30,6 +30,7 @@ public class SeleniumTestPlan extends CommonCode{
 		options.addArguments("--start-fullscreen");
 		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("https://www.cleartrip.com/");
 		
 		
 		
